@@ -14,8 +14,8 @@ print('##############################################################')
 print('')
 hosts = input("hosts: (Enter=Todos)")
 args = input("Argumentos: ")
-if not hosts:
-    hosts = ' '.join(ns.all_hosts())
+#if not hosts:
+ #   hosts = ' '.join(ns.all_hosts())
 # host up ?
 ns.scan(str(hosts), '-sn')
 print("----------------------------------------------------------")
